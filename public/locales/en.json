@@ -1,0 +1,189 @@
+{
+  "nav": {
+    "about": "About",
+    "education": "Education",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "hero": {
+    "greeting": "Hello, I'm Amine",
+    "title": "Full Stack Developer & UI/UX Enthusiast",
+    "description": "I create modern, scalable web applications with a focus on clean code and exceptional user experience.",
+    "cta": "Explore My Work",
+    "turn_your": "Turn your",
+    "idea": "idea",
+    "into_app": "into a ready to launch app."
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I am a Full Stack Developer and AI & Data Science student passionate about building scalable and impactful digital products. I specialize in modern web technologies such as Next.js, TypeScript, and Node.js, focusing on clean architecture and high-performance applications.\n\nBeyond development, I am an entrepreneur and tech founder. I previously founded DZTechLab, a digital solutions initiative, and I am currently preparing the launch of InotechPlus, a web and software development company. I am also the founder of a teleconsultation platform designed for Algeria and France, developed as part of my final-year project and startup vision.\n\nMy goal is to transform innovative ideas into real-world solutions that create measurable impact."
+  },
+
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "role": "Web Developer",
+        "company": "Nexus – Cybersecurity Scientific Club",
+        "period": "September 2023 - 2024",
+        "location": "Estin ,Bejaia, Algeria",
+        "description": "Developed internal cybersecurity-oriented tools and platforms. Contributed to projects related to secure coding practices, web vulnerability analysis, and application security awareness.",
+        "logo": "https://res.cloudinary.com/de2gmvbew/image/upload/v1770852272/nexus_q6cbzf.jpg"
+      },
+      {
+        "role": "Founder & Lead Developer",
+        "company": "DzTechLab",
+        "period": "March 2023 - July 2024",
+        "location": "Borj el Kiffan, Alger, Algeria",
+        "description": "Founded and led a web development lab delivering custom digital solutions. Responsible for system architecture, full-stack development, and team management. Delivered e-commerce platforms, SaaS products, and business tools.",
+        "logo": "https://portfolioaminebenali-amines-projects-81fe7837.vercel.app/assets/logo-dk-nK7u0.jpg"
+      },
+      {
+        "role": "Web Developer Intern",
+        "company": "Dotrea",
+        "period": "July 1, 2025 - July 30, 2025",
+        "location": "Algiers, Algeria",
+        "description": "Designed and developed a comprehensive employee management web application. Implemented features for employee information recording and tracking, task organization, absence monitoring, and internal process management.",
+        "logo": "https://res.cloudinary.com/de2gmvbew/image/upload/v1771907090/dotrea_i9f6kg.jpg"
+      },
+      {
+        "role": "Web Developer Intern",
+        "company": "Dotrea",
+        "period": "August 3, 2025 - September 3, 2025",
+        "location": "Algiers, Algeria",
+        "description": "Developed an analytical dashboard for tracking company revenue and performance. Created data visualization interfaces and key performance indicators (KPIs) to support decision-making processes.",
+        "logo": "https://res.cloudinary.com/de2gmvbew/image/upload/v1771907090/dotrea_i9f6kg.jpg"
+      },
+      {
+        "role": "Founder",
+        "company": "InotechPlus",
+        "period": "September 2025 - Present",
+        "location": "International",
+        "description": "Founded a digital agency specializing in web applications, business process automation, and digital transformation. Focused on SaaS solutions and cloud integrations for companies.",
+        "logo": "https://res.cloudinary.com/de2gmvbew/image/upload/v1771977418/primetech-removebg-preview_a26jhi.png"
+      },
+      {
+        "role": "Founder & Product Builder",
+        "company": "SaaS Factory",
+        "period": "January 2026 - Present",
+        "location": "International",
+        "description": "Built a SaaS platform for generating multi-currency invoices and quotations, managing clients, and automating financial workflows for freelancers and SMEs.",
+        "logo": "https://res.cloudinary.com/de2gmvbew/image/upload/v1771977507/logo_j5mp9n.webp"
+      },
+      {
+        "role": "Co-Founder & Lead Developer",
+        "company": "Franco-Algerian Teleconsultation Startup (Final Year Project)",
+        "period": "2024 - 2025",
+        "location": "France & Algeria",
+        "description": "Co-founded a cross-border telemedicine startup as part of a final year engineering project. Built an MVP enabling secure video consultations between patients and doctors in France and Algeria. Implemented WebRTC, appointment scheduling, electronic medical records, and secure system architecture with a vision for international deployment.",
+        "logo": "telemed"
+      }
+    ]
+  },
+
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "degree": "Engineering Degree in Computer Science & Digital Technologies",
+        "institution": "Higher School of Computer Science and Digital Technologies",
+        "year": "2021 - 2026",
+        "location": "Algiers, Algeria",
+        "summary": "Five-year engineering program focused on software engineering, artificial intelligence, data science, and modern web technologies. Comprehensive training in computer science fundamentals, advanced algorithms, and full-stack development."
+      },
+      {
+        "degree": "High School Diploma – Mathematics & Electrical Engineering",
+        "institution": "Aïssa Hamitouche High School",
+        "year": "2018 - 2021",
+        "location": "Algiers, Algeria",
+        "summary": "Graduated with distinction (17.71/20). Specialized in advanced mathematics, physics, and electrical engineering fundamentals. Prepared for rigorous engineering studies."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Tools & Others",
+    "languages": [
+      "React",
+      "Vue.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Next.js",
+      "Material UI"
+    ],
+    "backendItems": [
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "MongoDB",
+      "REST APIs",
+      "GraphQL"
+    ],
+    "toolsItems": ["Git", "Docker", "AWS", "CI/CD", "Figma", "Webpack"]
+  },
+ "projects": {
+  "title": "Selected Projects",
+  "description": "Academic and professional projects focused on information systems, scalable architectures, and SaaS platforms.",
+
+  "project1": {
+    "name": "ACMA Information System – Loan & Medical Management",
+    "description": "Designed and developed a full information system including loan request workflows, medical coverage management, and monthly repayment tracking. Built a companion mobile application for employees to monitor balances. Responsible for system architecture and database modeling.",
+    "tech": "Next.js, React, Express.js, PostgreSQL",
+    "image": "/images/projects/acma.jpg"
+  },
+
+  "project2": {
+    "name": "Franco-Algerian Teleconsultation Platform",
+    "description": "Co-founded and led the development of a cross-border telemedicine platform as part of a final-year project. Implemented secure video consultations (WebRTC), appointment scheduling, and electronic medical records with secure architecture.",
+    "tech": "React.js, Node.js, WebRTC, PostgreSQL",
+    "image": "/images/projects/telemed.jpg"
+  },
+
+  "project3": {
+    "name": "SaaS Invoicing Platform (SaaS Factory)",
+    "description": "Built a scalable SaaS solution for multi-currency invoicing, client management, and payment tracking. Implemented secure authentication and role-based access control.",
+    "tech": "Next.js, Node.js, PostgreSQL, JWT",
+    "image": "/images/projects/saas.jpg"
+  },
+
+  "project4": {
+    "name": "Umrah & Flight Booking Platform (B2B / B2C)",
+    "description": "Developed a booking platform supporting both B2C and B2B models with multi-role authentication, transaction tracking, and administrative dashboards.",
+    "tech": "React.js, Express.js, PostgreSQL",
+    "image": "/images/projects/booking.jpg"
+  },
+
+  "project5": {
+    "name": "IT Equipment E-Commerce Platform",
+    "description": "Developed a complete e-commerce system including product management, cart functionality, order processing, and admin dashboard.",
+    "tech": "React.js, Redux Toolkit, Express.js, MongoDB",
+    "image": "/images/projects/ecommerce.jpg"
+  },
+
+  "project6": {
+    "name": "Advanced Authentication & Security System",
+    "description": "Implemented secure authentication using JWT, role-based access control (RBAC), protected routes, and backend security best practices.",
+    "tech": "Node.js, Express, JWT, PostgreSQL",
+    "image": "/images/projects/security.jpg"
+  }
+}
+,
+  "contact": {
+    "title": "Get In Touch",
+    "description": "I'm always interested in hearing about new projects and opportunities.",
+    "name": "Amine benali",
+    "email": "a_benali@estin.dz",
+    "phone": "+213 697412620",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "twitter": "Twitter"
+  },
+  "footer": {
+    "copyright": "© 2024 Amine Portfolio. All rights reserved.",
+    "credit": "Designed with passion using Next.js & Material UI"
+  }
+}

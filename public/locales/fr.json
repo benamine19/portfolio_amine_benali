@@ -1,0 +1,186 @@
+{
+  "nav": {
+    "about": "À Propos",
+    "education": "Formation",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "contact": "Contact",
+    "language": "Langue"
+  },
+  "hero": {
+    "greeting": "Bonjour, je suis Amine",
+    "title": "Développeur Full Stack & Passionné par l'UI/UX",
+    "description": "Je crée des applications web modernes et évolutives en mettant l'accent sur le code propre et l'expérience utilisateur exceptionnelle.",
+    "cta": "Découvrir Mes Travaux",
+    "turn_your": "Transformez votre",
+    "idea": "idée",
+    "into_app": "en une application prête à être lancée."
+  },
+  "about": {
+    "title": "À Propos de Moi",
+    "description": "Je suis développeur Full Stack et étudiant en Data Science & Intelligence Artificielle, passionné par la création de produits digitaux performants et évolutifs. Je me spécialise dans les technologies modernes telles que Next.js, TypeScript et Node.js, avec une forte attention portée à l’architecture propre, la performance et l’expérience utilisateur.\n\nAu-delà du développement, je suis entrepreneur et fondateur de projets technologiques. J’ai fondé DZTechLab, une initiative spécialisée dans les solutions digitales, et je prépare actuellement le lancement d’InotechPlus, une entreprise dédiée au développement web et logiciel. Je suis également fondateur d’une plateforme de téléconsultation destinée à l’Algérie et à la France, développée dans le cadre de mon projet de fin d’études avec une vision startup.\n\nMon objectif est de transformer des idées innovantes en solutions concrètes à fort impact."
+  },
+  "experience": {
+    "title": "Expérience",
+    "items": [
+      {
+        "role": "Développeur Web",
+        "company": "Nexus – Club Scientifique Cybersécurité",
+        "period": "Septembre 2023 - 2024",
+        "location": "Estin ,Bejaia, Algérie",
+        "description": "Développement d’outils et plateformes internes orientés cybersécurité. Participation à des projets techniques liés aux bonnes pratiques de sécurité, aux audits applicatifs et à la sensibilisation aux vulnérabilités web.",
+        "logo": "https://res.cloudinary.com/de2gmvbew/image/upload/v1770852272/nexus_q6cbzf.jpg"
+      },
+      {
+        "role": "Fondateur & Lead Developer",
+        "company": "DzTechLab",
+        "period": "Mars 2023 - juillet 2024",
+        "location": "Borj el Kiffan, Alger, Algérie",
+        "description": "Création et direction d’un laboratoire de développement spécialisé en solutions web sur mesure. Responsable architecture, développement full-stack et gestion d’équipe. Livraison de projets e-commerce, plateformes SaaS et outils business.",
+        "logo": "https://portfolioaminebenali-amines-projects-81fe7837.vercel.app/assets/logo-dk-nK7u0.jpg"
+      },
+      {
+        "role": "Stagiaire Développeur Web",
+        "company": "Dotrea",
+        "period": "1er juillet 2025 - 30 juillet 2025",
+        "location": "Alger, Algérie",
+        "description": "Conception et développement d'une application web complète de gestion des employés. Réalisation des fonctionnalités d'enregistrement et suivi des informations du personnel, organisation des tâches, suivi des absences et gestion des processus internes de l'entreprise.",
+        "logo": "https://res.cloudinary.com/de2gmvbew/image/upload/v1771907090/dotrea_i9f6kg.jpg"
+      },
+      {
+        "role": "Stagiaire Développeur Web",
+        "company": "Dotrea",
+        "period": "3 août 2025 - 3 septembre 2025",
+        "location": "Alger, Algérie",
+        "description": "Développement d'un dashboard analytique pour le suivi du chiffre d'affaires et des performances de l'entreprise. Création d'interfaces de visualisation de données et d'indicateurs clés de performance (KPI) pour l'aide à la décision.",
+        "logo": "https://res.cloudinary.com/de2gmvbew/image/upload/v1771907090/dotrea_i9f6kg.jpg"
+      },
+      {
+        "role": "Fondateur",
+        "company": "InotechPlus",
+        "period": "Septembre 2025 - Présent",
+        "location": "International",
+        "description": "Fondation d’une agence digitale spécialisée en développement d’applications web, automatisation de processus et transformation numérique. Focus sur les solutions SaaS et intégrations cloud pour entreprises.",
+        "logo": "https://res.cloudinary.com/de2gmvbew/image/upload/v1771977418/primetech-removebg-preview_a26jhi.png"
+      },
+      {
+        "role": "Fondateur & Product Builder",
+        "company": "SaaS Factory",
+        "period": "Janvier 2026 - Présent",
+        "location": "International",
+        "description": "Création d’une plateforme SaaS permettant la génération de factures et devis multi-devises, gestion des clients et automatisation des processus financiers pour freelances et PME.",
+        "logo": "https://res.cloudinary.com/de2gmvbew/image/upload/v1771977507/logo_j5mp9n.webp"
+      },
+      {
+        "role": "Co-Fondateur & Lead Developer",
+        "company": "Plateforme de Téléconsultation Franco-Algérienne (Projet de Fin d’Études)",
+        "period": "2024 - 2025",
+        "location": "Algérie",
+        "description": "Co-création d’une startup de télémédecine dans le cadre du projet de fin d’études, visant à connecter patients et médecins entre la France et l’Algérie via des consultations vidéo sécurisées. Développement d’un MVP intégrant WebRTC, gestion des rendez-vous, dossiers médicaux électroniques et architecture sécurisée. Projet conçu avec une vision de déploiement international.",
+        "logo": "telemed"
+      }
+    ]
+  },
+  "education": {
+    "title": "Formation",
+    "items": [
+      {
+        "degree": "Baccalauréat – Mathématiques & Génie Électrique",
+        "institution": "Lycée Lakhdar Belmadani",
+        "year": "2018 - 2021",
+        "location": "Setif, Algérie",
+        "summary": "Obtenu avec mention (17.71/20). Spécialisation en mathématiques avancées, physique et fondamentaux du génie électrique. Préparation rigoureuse pour des études d'ingénieur."
+      },
+      {
+        "degree": "Diplôme d'Ingénieur en Informatique et Technologies Numériques",
+        "institution": "École Supérieure d'Informatique et Technologies Numériques",
+        "year": "2021 - 2026",
+        "location": "Béjaia, Algérie",
+        "summary": "Programme d'ingénierie de cinq ans axé sur le génie logiciel, l'intelligence artificielle, la science des données et les technologies web modernes. Formation complète en fondamentaux informatiques, algorithmes avancés et développement full-stack."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Compétences",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Outils & Autres",
+    "languages": [
+      "React",
+      "Vue.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Next.js",
+      "Material UI"
+    ],
+    "backendItems": [
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "MongoDB",
+      "API REST",
+      "GraphQL"
+    ],
+    "toolsItems": ["Git", "Docker", "AWS", "CI/CD", "Figma", "Webpack"]
+  },
+  "projects": {
+    "title": "Projets Sélectionnés",
+    "description": "Projets académiques et professionnels orientés systèmes d’information, architecture logicielle et solutions SaaS.",
+
+    "project1": {
+      "name": "Système d’Information ACMA – Gestion des Prêts et Couverture Médicale",
+      "description": "Conception et développement d’un système d’information complet composé de trois modules : gestion des demandes de prêts avec workflow de validation, gestion des prises en charge médicales, et suivi des remboursements mensuels. Développement d’une application mobile permettant aux employés de consulter leurs soldes et paiements. Responsable de l’architecture, de la modélisation base de données et du développement full-stack.",
+      "tech": "Next.js, React, Express.js, PostgreSQL",
+      "image": "/images/projects/acma.jpg"
+    },
+
+    "project2": {
+      "name": "Plateforme Téléconsultation Franco-Algérienne",
+      "description": "Co-fondateur et lead developer d’une plateforme de télémédecine développée dans le cadre du projet de fin d’études. Implémentation de consultations vidéo sécurisées (WebRTC), gestion des rendez-vous, dossiers médicaux électroniques et architecture sécurisée orientée RGPD.",
+      "tech": "React.js, Node.js, WebRTC, PostgreSQL",
+      "image": "/images/projects/telemed.jpg"
+    },
+
+    "project3": {
+      "name": "Plateforme SaaS de Facturation (SaaS Factory)",
+      "description": "Développement d’une solution SaaS permettant la génération de devis et factures multi-devises, gestion clients, suivi des paiements et automatisation des processus financiers. Architecture scalable avec authentification sécurisée et gestion des rôles.",
+      "tech": "Next.js, Node.js, PostgreSQL, JWT",
+      "image": "/images/projects/saas.jpg"
+    },
+
+    "project4": {
+      "name": "Plateforme de Réservation Omra & Billetterie (B2B / B2C)",
+      "description": "Développement d’un système de réservation intégrant modèles B2B et B2C avec gestion multi-rôles, tableau de bord administratif et suivi des transactions. Responsable conception backend et logique métier.",
+      "tech": "React.js, Express.js, PostgreSQL",
+      "image": "/images/projects/booking.jpg"
+    },
+
+    "project5": {
+      "name": "Plateforme E-Commerce Équipements Informatiques",
+      "description": "Création d’une plateforme e-commerce complète avec gestion produits, catégories, panier, commandes et dashboard administrateur. Implémentation filtrage dynamique et gestion des stocks.",
+      "tech": "React.js, Redux Toolkit, Express.js, MongoDB",
+      "image": "/images/projects/ecommerce.jpg"
+    },
+
+    "project6": {
+      "name": "Système d’Authentification & Sécurité Applicative",
+      "description": "Implémentation d’un système d’authentification avancé avec JWT, gestion des rôles (RBAC), protection des routes et bonnes pratiques de sécurité backend. Projet orienté cybersécurité et protection des données.",
+      "tech": "Node.js, Express, JWT, PostgreSQL",
+      "image": "/images/projects/security.jpg"
+    }
+  },
+  "contact": {
+    "title": "Me Contacter",
+    "description": "Je suis toujours intéressé par de nouveaux projets et opportunités.",
+    "name": "Votre Nom",
+    "email": "a_benali@estin.dz",
+    "phone": "+33 (0)1 23 45 67 89",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "twitter": "Twitter"
+  },
+  "footer": {
+    "copyright": "© 2024 Portfolio Amine. Tous droits réservés.",
+    "credit": "Conçu avec passion en utilisant Next.js & Material UI"
+  }
+}
