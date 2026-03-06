@@ -18,7 +18,7 @@
   },
   "about": {
     "title": "À Propos de Moi",
-    "description": "Je suis développeur Full Stack et étudiant en Data Science & Intelligence Artificielle, passionné par la création de produits digitaux performants et évolutifs. Je me spécialise dans les technologies modernes telles que Next.js, TypeScript et Node.js, avec une forte attention portée à l’architecture propre, la performance et l’expérience utilisateur.\n\nAu-delà du développement, je suis entrepreneur et fondateur de projets technologiques. J’ai fondé DZTechLab, une initiative spécialisée dans les solutions digitales, et je prépare actuellement le lancement d’InotechPlus, une entreprise dédiée au développement web et logiciel. Je suis également fondateur d’une plateforme de téléconsultation destinée à l’Algérie et à la France, développée dans le cadre de mon projet de fin d’études avec une vision startup.\n\nMon objectif est de transformer des idées innovantes en solutions concrètes à fort impact."
+    "description": "Je suis développeur Full Stack et étudiant en Data Science & Intelligence Artificielle, passionné par la création de produits digitaux performants et évolutifs. Je me spécialise dans les technologies modernes telles que Next.js, TypeScript et Node.js, avec une forte attention portée à l’architecture propre, la performance et l’expérience utilisateur.\n\nAu-delà du développement, je suis entrepreneur et fondateur de projets technologiques. J’ai fondé DZTechLab, une initiative spécialisée dans les solutions digitales, et je prépare actuellement le lancement d’Celerix-studio, une entreprise dédiée au développement web et logiciel. Je suis également fondateur d’une plateforme de téléconsultation destinée à l’Algérie et à la France, développée dans le cadre de mon projet de fin d’études avec une vision startup.\n\nMon objectif est de transformer des idées innovantes en solutions concrètes à fort impact."
   },
   "experience": {
     "title": "Expérience",
@@ -57,11 +57,11 @@
       },
       {
         "role": "Fondateur",
-        "company": "InotechPlus",
+        "company": "Celerix-studio",
         "period": "Septembre 2025 - Présent",
         "location": "International",
         "description": "Fondation d’une agence digitale spécialisée en développement d’applications web, automatisation de processus et transformation numérique. Focus sur les solutions SaaS et intégrations cloud pour entreprises.",
-        "logo": "https://res.cloudinary.com/de2gmvbew/image/upload/v1771977418/primetech-removebg-preview_a26jhi.png"
+        "logo": "https://res.cloudinary.com/de2gmvbew/image/upload/v1772074988/celerix_dark_icon_cc_xljdu7.png"
       },
       {
         "role": "Fondateur & Product Builder",

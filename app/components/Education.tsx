@@ -60,7 +60,6 @@ const EducationCard = memo(({
   const isRecent = index === 0;
   
   return (
-    <Grid item xs={12} md={6}>
       <Paper
         elevation={0}
         sx={{
@@ -182,7 +181,6 @@ const EducationCard = memo(({
           </Box>
         </Stack>
       </Paper>
-    </Grid>
   );
 });
 

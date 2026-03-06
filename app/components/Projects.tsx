@@ -664,7 +664,7 @@ const ProjectDetailModal = memo(({
             <Box>
               <ImageGallery 
                 images={demoImages} 
-                projectName={project.name}
+                projectName={project.title}
                 isDarkMode={isDarkMode}
                 colors={colors}
               />
@@ -690,7 +690,7 @@ const ProjectDetailModal = memo(({
                       lineHeight: 1.2,
                     }}
                   >
-                    {project.name}
+                    {project.title}
                   </Typography>
                   <Stack direction="row" spacing={1.5} flexWrap="wrap">
                     <Chip
@@ -863,7 +863,7 @@ const ProjectCard = memo(({
         <Box sx={{ position: 'relative', width: '100%', height: 160, bgcolor: '#000' }}>
           <OptimizedImage 
             src={project.image} 
-            alt={project.name} 
+            alt={project.title} 
           />
         </Box>
 
@@ -883,7 +883,7 @@ const ProjectCard = memo(({
               minHeight: '2.6rem',
             }}
           >
-            {project.name}
+            {project.title}
           </Typography>
 
           <Typography

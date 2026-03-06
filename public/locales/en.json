@@ -18,7 +18,7 @@
   },
   "about": {
     "title": "About Me",
-    "description": "I am a Full Stack Developer and AI & Data Science student passionate about building scalable and impactful digital products. I specialize in modern web technologies such as Next.js, TypeScript, and Node.js, focusing on clean architecture and high-performance applications.\n\nBeyond development, I am an entrepreneur and tech founder. I previously founded DZTechLab, a digital solutions initiative, and I am currently preparing the launch of InotechPlus, a web and software development company. I am also the founder of a teleconsultation platform designed for Algeria and France, developed as part of my final-year project and startup vision.\n\nMy goal is to transform innovative ideas into real-world solutions that create measurable impact."
+    "description": "I am a Full Stack Developer and AI & Data Science student passionate about building scalable and impactful digital products. I specialize in modern web technologies such as Next.js, TypeScript, and Node.js, focusing on clean architecture and high-performance applications.\n\nBeyond development, I am an entrepreneur and tech founder. I previously founded DZTechLab, a digital solutions initiative, and I am currently preparing the launch of Celerix-studio, a web and software development company. I am also the founder of a teleconsultation platform designed for Algeria and France, developed as part of my final-year project and startup vision.\n\nMy goal is to transform innovative ideas into real-world solutions that create measurable impact."
   },
 
   "experience": {
@@ -58,11 +58,11 @@
       },
       {
         "role": "Founder",
-        "company": "InotechPlus",
+        "company": "Celerix-studio",
         "period": "September 2025 - Present",
         "location": "International",
         "description": "Founded a digital agency specializing in web applications, business process automation, and digital transformation. Focused on SaaS solutions and cloud integrations for companies.",
-        "logo": "https://res.cloudinary.com/de2gmvbew/image/upload/v1771977418/primetech-removebg-preview_a26jhi.png"
+        "logo": "https://res.cloudinary.com/de2gmvbew/image/upload/v1772074988/celerix_dark_icon_cc_xljdu7.png"
       },
       {
         "role": "Founder & Product Builder",

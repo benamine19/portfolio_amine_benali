@@ -121,12 +121,11 @@ const ExperienceItem = memo(
     );
 
     return (
-      <Box component="li">
-        <ListItem
-          alignItems="flex-start"
-          sx={itemListSx(isDarkMode ? "dark" : "light", colors.GREEN_PRIMARY, hoverBackground)}
-          onClick={handleClick}
-        >
+      <ListItem
+        alignItems="flex-start"
+        sx={itemListSx(isDarkMode ? "dark" : "light", colors.GREEN_PRIMARY, hoverBackground)}
+        onClick={handleClick}
+      >
           <Avatar
             src={item.logo}
             imgProps={{ loading: "lazy", decoding: "async" }}
@@ -234,8 +233,7 @@ const ExperienceItem = memo(
               En savoir plus →
             </Button>
           </Box>
-        </ListItem>
-        {index < totalItems - 1 && (
+            {index < totalItems - 1 && (
           <Divider
             sx={{
               mx: { xs: 3, md: 4 },
@@ -246,7 +244,7 @@ const ExperienceItem = memo(
             }}
           />
         )}
-      </Box>
+        </ListItem>
     );
   }
 );
