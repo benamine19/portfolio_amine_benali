@@ -1,83 +1,88 @@
 {
   "nav": {
-    "about": "À Propos",
+    "about": "À propos",
+    "experience": "Expérience",
     "education": "Formation",
     "skills": "Compétences",
     "projects": "Projets",
     "contact": "Contact",
-    "language": "Langue"
+    "language": "Langue",
+    "cv": "Télécharger le CV",
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre",
+    "switchLanguage": "Changer de langue",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "subtitle": "Développeur Full-Stack · IA & Data Science"
   },
   "hero": {
-    "greeting": "Bonjour, je suis Amine",
-    "title": "Développeur Full Stack & Passionné par l'UI/UX",
-    "description": "Je crée des applications web modernes et évolutives en mettant l'accent sur le code propre et l'expérience utilisateur exceptionnelle.",
-    "cta": "Découvrir Mes Travaux",
-    "turn_your": "Transformez votre",
-    "idea": "idée",
-    "into_app": "en une application prête à être lancée."
+    "badge": "Ingénieur d'État en IA & Data Science · ESTIN",
+    "greeting": "Amine Benali",
+    "title": "Développeur Full-Stack · IA & Data Science",
+    "description": "Je conçois et développe des applications web métier, des plateformes SaaS et des systèmes de gestion de bout en bout : architecture, base de données, interface et mise en production. Ma formation en IA & Data Science me permet d'ajouter de l'analyse de données et des fonctionnalités intelligentes là où elles apportent une vraie valeur.",
+    "ctaCv": "Télécharger mon CV",
+    "ctaProjects": "Voir mes projets",
+    "location": "Alger, Algérie",
+    "languages": "Français · Anglais · Arabe",
+    "photoAlt": "Portrait d'Amine Benali",
+    "photoPlaceholder": "[Votre photo]"
   },
   "about": {
-    "title": "À Propos de Moi",
-    "description": "Je suis développeur Full Stack et étudiant en Data Science & Intelligence Artificielle, passionné par la création de produits digitaux performants et évolutifs. Je me spécialise dans les technologies modernes telles que Next.js, TypeScript et Node.js, avec une forte attention portée à l’architecture propre, la performance et l’expérience utilisateur.\n\nAu-delà du développement, je suis entrepreneur et fondateur de projets technologiques. J’ai fondé DZTechLab, une initiative spécialisée dans les solutions digitales, et je prépare actuellement le lancement d’Celerix-studio, une entreprise dédiée au développement web et logiciel. Je suis également fondateur d’une plateforme de téléconsultation destinée à l’Algérie et à la France, développée dans le cadre de mon projet de fin d’études avec une vision startup.\n\nMon objectif est de transformer des idées innovantes en solutions concrètes à fort impact."
+    "title": "À propos de moi",
+    "description": "Ingénieur d'État en Intelligence Artificielle & Data Science et titulaire d'un Master en Informatique de l'ESTIN (Béjaïa, Algérie), je suis développeur full-stack, spécialisé dans les applications métier.\n\nDepuis 2023, je réalise des plateformes web pour de vrais clients : réservation de voyages, e-commerce, facturation, gestion de prêts et de fonds sociaux, télémédecine. Je prends en charge tout le cycle, de l'analyse du besoin et de la conception de la base de données jusqu'à l'interface et la mise en production, et j'ai fondé mon propre studio, Celerix Studio, pour travailler directement avec les entreprises.\n\nJ'accorde une grande importance à une architecture propre, à la fiabilité et à des logiciels réellement utilisés. Je travaille en français, en anglais et en arabe.",
+    "stats": [
+      {
+        "value": "+8",
+        "label": "projets livrés"
+      },
+      {
+        "value": "3 ans",
+        "label": "d'expérience client"
+      },
+      {
+        "value": "Bac+5",
+        "label": "ingénieur + master"
+      },
+      {
+        "value": "3",
+        "label": "langues"
+      }
+    ]
   },
   "experience": {
     "title": "Expérience",
     "items": [
       {
-        "role": "Développeur Web",
-        "company": "Nexus – Club Scientifique Cybersécurité",
-        "period": "Septembre 2023 - 2024",
-        "location": "Estin ,Bejaia, Algérie",
-        "description": "Développement d’outils et plateformes internes orientés cybersécurité. Participation à des projets techniques liés aux bonnes pratiques de sécurité, aux audits applicatifs et à la sensibilisation aux vulnérabilités web.",
-        "logo": "https://res.cloudinary.com/de2gmvbew/image/upload/v1770852272/nexus_q6cbzf.jpg"
+        "initials": "CS",
+        "role": "Fondateur & Développeur Full-Stack",
+        "company": "Celerix Studio",
+        "period": "2026 - Aujourd'hui",
+        "location": "Alger, Algérie",
+        "description": "Studio de développement qui réalise des sites web, des applications web métier et des logiciels de gestion pour des entreprises algériennes.\n\nJe gère les échanges avec les clients, le cadrage et les devis, l'architecture, le développement et le déploiement, et je coordonne des prestataires quand le projet le demande.\nTechnologies : Next.js, React, Node.js, Express, Prisma, PostgreSQL."
       },
       {
-        "role": "Fondateur & Lead Developer",
-        "company": "DzTechLab",
-        "period": "Mars 2023 - juillet 2024",
-        "location": "Borj el Kiffan, Alger, Algérie",
-        "description": "Création et direction d’un laboratoire de développement spécialisé en solutions web sur mesure. Responsable architecture, développement full-stack et gestion d’équipe. Livraison de projets e-commerce, plateformes SaaS et outils business.",
-        "logo": "https://portfolioaminebenali-amines-projects-81fe7837.vercel.app/assets/logo-dk-nK7u0.jpg"
-      },
-      {
+        "initials": "DT",
         "role": "Stagiaire Développeur Web",
         "company": "Dotrea",
-        "period": "1er juillet 2025 - 30 juillet 2025",
+        "period": "Juillet - Septembre 2025",
         "location": "Alger, Algérie",
-        "description": "Conception et développement d'une application web complète de gestion des employés. Réalisation des fonctionnalités d'enregistrement et suivi des informations du personnel, organisation des tâches, suivi des absences et gestion des processus internes de l'entreprise.",
-        "logo": "https://res.cloudinary.com/de2gmvbew/image/upload/v1771907090/dotrea_i9f6kg.jpg"
+        "description": "Stage composé de deux projets successifs.\n\nApplication de gestion des employés (juillet 2025) : conception et développement complets : dossiers du personnel, organisation des tâches, suivi des absences et processus internes.\nTechnologies : Next.js, PostgreSQL.\n\nTableau de bord analytique (août - septembre 2025) : développement d'un tableau de bord de suivi du chiffre d'affaires et des indicateurs de performance de l'entreprise.\nTechnologies : Python, outils de business intelligence et d'analyse de données."
       },
       {
-        "role": "Stagiaire Développeur Web",
-        "company": "Dotrea",
-        "period": "3 août 2025 - 3 septembre 2025",
-        "location": "Alger, Algérie",
-        "description": "Développement d'un dashboard analytique pour le suivi du chiffre d'affaires et des performances de l'entreprise. Création d'interfaces de visualisation de données et d'indicateurs clés de performance (KPI) pour l'aide à la décision.",
-        "logo": "https://res.cloudinary.com/de2gmvbew/image/upload/v1771907090/dotrea_i9f6kg.jpg"
-      },
-      {
-        "role": "Fondateur",
-        "company": "Celerix-studio",
-        "period": "Septembre 2025 - Présent",
-        "location": "International",
-        "description": "Fondation d’une agence digitale spécialisée en développement d’applications web, automatisation de processus et transformation numérique. Focus sur les solutions SaaS et intégrations cloud pour entreprises.",
-        "logo": "https://res.cloudinary.com/de2gmvbew/image/upload/v1772074988/celerix_dark_icon_cc_xljdu7.png"
-      },
-      {
-        "role": "Fondateur & Product Builder",
-        "company": "SaaS Factory",
-        "period": "Janvier 2026 - Présent",
-        "location": "International",
-        "description": "Création d’une plateforme SaaS permettant la génération de factures et devis multi-devises, gestion des clients et automatisation des processus financiers pour freelances et PME.",
-        "logo": "https://res.cloudinary.com/de2gmvbew/image/upload/v1771977507/logo_j5mp9n.webp"
-      },
-      {
-        "role": "Co-Fondateur & Lead Developer",
-        "company": "Plateforme de Téléconsultation Franco-Algérienne (Projet de Fin d’Études)",
-        "period": "2024 - 2025",
+        "initials": "FL",
+        "role": "Développeur Full-Stack Freelance",
+        "company": "Freelance",
+        "period": "2023 - 2025",
         "location": "Algérie",
-        "description": "Co-création d’une startup de télémédecine dans le cadre du projet de fin d’études, visant à connecter patients et médecins entre la France et l’Algérie via des consultations vidéo sécurisées. Développement d’un MVP intégrant WebRTC, gestion des rendez-vous, dossiers médicaux électroniques et architecture sécurisée. Projet conçu avec une vision de déploiement international.",
-        "logo": "telemed"
+        "description": "Applications web sur mesure pour des clients : plateformes de réservation, sites e-commerce, sites vitrines et solutions de gestion.\n\nDe l'analyse du besoin au déploiement et à la maintenance, en lien direct avec les chefs d'entreprise.\nTechnologies : React, Next.js, Node.js, Express, PostgreSQL, MongoDB."
+      },
+      {
+        "initials": "NX",
+        "role": "Développeur Web",
+        "company": "Nexus – Club scientifique de cybersécurité",
+        "period": "Septembre 2023 - Juin 2024",
+        "location": "ESTIN, Béjaïa, Algérie",
+        "description": "Développement d'outils et de plateformes internes pour le club. Participation à des projets sur les bonnes pratiques de développement sécurisé, l'analyse de vulnérabilités web et la sensibilisation à la sécurité applicative."
       }
     ]
   },
@@ -85,102 +90,1028 @@
     "title": "Formation",
     "items": [
       {
-        "degree": "Baccalauréat – Mathématiques & Génie Électrique",
-        "institution": "Lycée Lakhdar Belmadani",
-        "year": "2018 - 2021",
-        "location": "Setif, Algérie",
-        "summary": "Obtenu avec mention (17.71/20). Spécialisation en mathématiques avancées, physique et fondamentaux du génie électrique. Préparation rigoureuse pour des études d'ingénieur."
+        "degree": "Diplôme d'Ingénieur d'État en IA & Data Science et Master en Informatique",
+        "institution": "ESTIN – École Supérieure en Sciences et Technologies de l'Informatique et du Numérique",
+        "year": "2021 - 2026",
+        "location": "Béjaïa, Algérie",
+        "summary": "Intelligence artificielle, science des données, algorithmique et génie logiciel. Projet de fin d'études : plateforme intelligente pour la santé connectée, IoT et IA (téléconsultation vidéo WebRTC, objets connectés, deep learning).",
+        "place": "ESTIN · Béjaïa"
       },
       {
-        "degree": "Diplôme d'Ingénieur en Informatique et Technologies Numériques",
-        "institution": "École Supérieure d'Informatique et Technologies Numériques",
-        "year": "2021 - 2026",
-        "location": "Béjaia, Algérie",
-        "summary": "Programme d'ingénierie de cinq ans axé sur le génie logiciel, l'intelligence artificielle, la science des données et les technologies web modernes. Formation complète en fondamentaux informatiques, algorithmes avancés et développement full-stack."
+        "degree": "Baccalauréat – Mathématiques et Génie électrique",
+        "institution": "Lycée Lakhdar Belmadani",
+        "year": "2021",
+        "location": "Sétif, Algérie",
+        "summary": "Obtenu avec une moyenne de 17,71/20.",
+        "place": "Lycée Lakhdar Belmadani · Sétif"
       }
     ]
   },
   "skills": {
     "title": "Compétences",
-    "frontend": "Frontend",
-    "backend": "Backend",
-    "tools": "Outils & Autres",
-    "languages": [
-      "React",
-      "Vue.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "Next.js",
-      "Material UI"
-    ],
-    "backendItems": [
-      "Node.js",
-      "Express",
-      "PostgreSQL",
-      "MongoDB",
-      "API REST",
-      "GraphQL"
-    ],
-    "toolsItems": ["Git", "Docker", "AWS", "CI/CD", "Figma", "Webpack"]
+    "primaryLabel": "Compétences principales",
+    "secondaryLabel": "Également utilisés",
+    "categories": [
+      {
+        "key": "frontend",
+        "title": "Développement front-end",
+        "subtitle": "Interfaces modernes, responsives et rapides",
+        "primary": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Material UI"
+        ],
+        "secondary": [
+          "JavaScript",
+          "Redux Toolkit / RTK Query",
+          "Dart / Flutter"
+        ]
+      },
+      {
+        "key": "backend",
+        "title": "Back-end & Bases de données",
+        "subtitle": "API REST, logique métier et modélisation des données",
+        "primary": [
+          "Node.js",
+          "Express",
+          "Prisma",
+          "PostgreSQL",
+          "Django"
+        ],
+        "secondary": [
+          "MongoDB",
+          "WebSocket / WebRTC",
+          "JWT & RBAC",
+          "Java",
+          "PHP",
+          "C / C++"
+        ]
+      },
+      {
+        "key": "ai",
+        "title": "IA & Data Science",
+        "subtitle": "Analyse de données, tableaux de bord et fonctionnalités intelligentes",
+        "primary": [
+          "Python",
+          "Analyse de données",
+          "Business Intelligence"
+        ],
+        "secondary": []
+      },
+      {
+        "key": "tools",
+        "title": "Outils & Déploiement",
+        "subtitle": "Versioning, conteneurs et mise en production",
+        "primary": [
+          "Git / GitHub",
+          "Docker",
+          "Linux",
+          "CI/CD"
+        ],
+        "secondary": [
+          "Firebase",
+          "VS Code"
+        ]
+      }
+    ]
   },
   "projects": {
-    "title": "Projets Sélectionnés",
-    "description": "Projets académiques et professionnels orientés systèmes d’information, architecture logicielle et solutions SaaS.",
-
-    "project1": {
-      "name": "Système d’Information ACMA – Gestion des Prêts et Couverture Médicale",
-      "description": "Conception et développement d’un système d’information complet composé de trois modules : gestion des demandes de prêts avec workflow de validation, gestion des prises en charge médicales, et suivi des remboursements mensuels. Développement d’une application mobile permettant aux employés de consulter leurs soldes et paiements. Responsable de l’architecture, de la modélisation base de données et du développement full-stack.",
-      "tech": "Next.js, React, Express.js, PostgreSQL",
-      "image": "/images/projects/acma.jpg"
-    },
-
-    "project2": {
-      "name": "Plateforme Téléconsultation Franco-Algérienne",
-      "description": "Co-fondateur et lead developer d’une plateforme de télémédecine développée dans le cadre du projet de fin d’études. Implémentation de consultations vidéo sécurisées (WebRTC), gestion des rendez-vous, dossiers médicaux électroniques et architecture sécurisée orientée RGPD.",
-      "tech": "React.js, Node.js, WebRTC, PostgreSQL",
-      "image": "/images/projects/telemed.jpg"
-    },
-
-    "project3": {
-      "name": "Plateforme SaaS de Facturation (SaaS Factory)",
-      "description": "Développement d’une solution SaaS permettant la génération de devis et factures multi-devises, gestion clients, suivi des paiements et automatisation des processus financiers. Architecture scalable avec authentification sécurisée et gestion des rôles.",
-      "tech": "Next.js, Node.js, PostgreSQL, JWT",
-      "image": "/images/projects/saas.jpg"
-    },
-
-    "project4": {
-      "name": "Plateforme de Réservation Omra & Billetterie (B2B / B2C)",
-      "description": "Développement d’un système de réservation intégrant modèles B2B et B2C avec gestion multi-rôles, tableau de bord administratif et suivi des transactions. Responsable conception backend et logique métier.",
-      "tech": "React.js, Express.js, PostgreSQL",
-      "image": "/images/projects/booking.jpg"
-    },
-
-    "project5": {
-      "name": "Plateforme E-Commerce Équipements Informatiques",
-      "description": "Création d’une plateforme e-commerce complète avec gestion produits, catégories, panier, commandes et dashboard administrateur. Implémentation filtrage dynamique et gestion des stocks.",
-      "tech": "React.js, Redux Toolkit, Express.js, MongoDB",
-      "image": "/images/projects/ecommerce.jpg"
-    },
-
-    "project6": {
-      "name": "Système d’Authentification & Sécurité Applicative",
-      "description": "Implémentation d’un système d’authentification avancé avec JWT, gestion des rôles (RBAC), protection des routes et bonnes pratiques de sécurité backend. Projet orienté cybersécurité et protection des données.",
-      "tech": "Node.js, Express, JWT, PostgreSQL",
-      "image": "/images/projects/security.jpg"
+    "title": "Projets sélectionnés",
+    "description": "Applications métier, plateformes SaaS et systèmes d'information réalisés pour des clients et pendant mes études.",
+    "viewProject": "Voir le projet",
+    "code": "Code",
+    "imagePlaceholder": "[Capture d'écran]",
+    "items": [
+      {
+        "category": "Santé connectée · PFE",
+        "title": "Plateforme intelligente pour la santé connectée (IoT + IA)",
+        "description": "Conception d'une plateforme intelligente de santé connectée : téléconsultation, objets connectés (IoT) et IA (deep learning) pour le risque clinique, les anomalies et l'aide à la prescription. Développeur principal.",
+        "stack": "Next.js · Express · WebRTC · PostgreSQL · Python · PyTorch",
+        "image": "/images/projects/sehati-dark.jpg",
+        "url": "",
+        "github": "",
+        "details": "Projet de fin d'études d'ingénieur : conception d'une plateforme intelligente pour la santé connectée (IoT + IA), dont j'étais le développeur principal. Consultations vidéo sécurisées (WebRTC), prise de rendez-vous et dossier médical électronique, avec une architecture de sécurité orientée RGPD. Une couche d'intelligence artificielle (deep learning et machine learning) analyse les dossiers médicaux et les mesures des objets connectés.",
+        "role": "Développeur principal",
+        "features": [
+          "Consultations vidéo en temps réel (WebRTC) et messagerie instantanée entre patients et médecins",
+          "Prise de rendez-vous avec confirmation, annulation et historique",
+          "Dossier médical électronique et ordonnances",
+          "Objets connectés (tensiomètre, glucomètre, montre) : mesures, seuils d'alerte et alertes pour le médecin",
+          "Intelligence artificielle (deep learning et machine learning) : prédiction du risque clinique (CamemBERT), détection d'anomalies sur les mesures connectées et recommandation de médicaments (embeddings)",
+          "Validation des médecins par l'administrateur, sur pièces justificatives",
+          "Espaces dédiés patient, médecin et administrateur, avec authentification JWT",
+          "Avis des patients sur les médecins"
+        ],
+        "stackDetails": [
+          {
+            "label": "Front-end",
+            "items": [
+              "Next.js 16",
+              "React 19",
+              "TypeScript",
+              "MUI",
+              "Redux Toolkit",
+              "WebRTC (simple-peer)"
+            ]
+          },
+          {
+            "label": "Back-end",
+            "items": [
+              "Express 5",
+              "TypeScript",
+              "Prisma",
+              "Socket.IO",
+              "JWT"
+            ]
+          },
+          {
+            "label": "Données",
+            "items": [
+              "PostgreSQL"
+            ]
+          },
+          {
+            "label": "Intelligence artificielle",
+            "items": [
+              "Python",
+              "FastAPI",
+              "PyTorch",
+              "Hugging Face Transformers",
+              "CamemBERT",
+              "Sentence-Transformers (MiniLM)",
+              "scikit-learn (Isolation Forest)",
+              "NumPy / SciPy"
+            ]
+          }
+        ],
+        "gallery": [
+          {
+            "src": "/images/projects/sehati/doctor-dashboard.webp",
+            "group": "Espace médecin",
+            "caption": "Tableau de bord du médecin : patients suivis, rendez-vous, surveillance IoT en temps réel et résumé des analyses IA."
+          },
+          {
+            "src": "/images/projects/sehati/doctor-iot-alerts.webp",
+            "group": "Espace médecin",
+            "caption": "Alertes IoT : seuils dépassés par patient, niveaux de gravité et recommandation générée par l'IA."
+          },
+          {
+            "src": "/images/projects/sehati/doctor-appointments.webp",
+            "group": "Espace médecin",
+            "caption": "Rendez-vous : à venir, passés ou tous, avec filtre par statut et actions de confirmation."
+          },
+          {
+            "src": "/images/projects/sehati/patient-dashboard.webp",
+            "group": "Espace patient",
+            "caption": "Espace patient : accès rapide aux médecins, rendez-vous et profil, avec le module de prédiction de risque par IA."
+          },
+          {
+            "src": "/images/projects/sehati/patient-devices.webp",
+            "group": "Espace patient",
+            "caption": "Appareils connectés : tensiomètre, glucomètre et montre, avec leur état et leur dernière synchronisation."
+          },
+          {
+            "src": "/images/projects/sehati/patient-measurements.webp",
+            "group": "Espace patient",
+            "caption": "Mesures d'un appareil : courbe d'évolution, moyenne, anomalies détectées et score de normalité calculés par l'IA."
+          },
+          {
+            "src": "/images/projects/sehati/patient-appointments.webp",
+            "group": "Espace patient",
+            "caption": "Rendez-vous du patient : consultations à venir, avec démarrage de l'appel vidéo, et historique."
+          },
+          {
+            "src": "/images/projects/sehati/admin-validations.webp",
+            "group": "Administration",
+            "caption": "Validation des médecins : demandes en attente, pièces justificatives et décision d'approbation."
+          },
+          {
+            "src": "/images/projects/sehati/admin-doctors.webp",
+            "group": "Administration",
+            "caption": "Gestion des médecins : statut, spécialité, établissement et nombre de patients."
+          },
+          {
+            "src": "/images/projects/sehati/mobile-home.webp",
+            "group": "Mobile",
+            "caption": "Page d'accueil du site sur mobile."
+          },
+          {
+            "src": "/images/projects/sehati/mobile-devices.webp",
+            "group": "Mobile",
+            "caption": "Appareils connectés sur mobile."
+          }
+        ],
+        "sections": [
+          {
+            "title": "Intelligence artificielle et deep learning",
+            "intro": "Un microservice Python (FastAPI) héberge trois modèles chargés au démarrage. L'API Node.js l'appelle avec un délai maximal de 10 secondes ; en cas d'indisponibilité du service, l'enregistrement d'une mesure ou d'un dossier n'est pas bloqué.",
+            "icon": "ai",
+            "items": [
+              {
+                "name": "Prédiction du risque clinique",
+                "tech": "Deep learning · NLP · CamemBERT · PyTorch",
+                "text": "Un transformeur CamemBERT (12 couches, 768 dimensions) affiné sur des notes médicales en français classe un texte clinique en risque faible, moyen ou élevé, avec un score de confiance et une recommandation. L'analyse est automatique à chaque création de dossier médical, et un risque élevé déclenche une notification au médecin. Le patient peut aussi lancer une prédiction depuis son tableau de bord, avec un historique."
+              },
+              {
+                "name": "Recommandation de médicaments",
+                "tech": "Deep learning · Embeddings de phrases · Plus proches voisins · Régression logistique",
+                "text": "Le diagnostic et les symptômes sont convertis en vecteurs par un modèle d'embeddings multilingue (MiniLM). Une recherche de cas cliniques similaires (360 cas) propose des médicaments classés par score de confiance, avec les cas proches qui justifient la suggestion, et un classifieur prédit la spécialité. Fonction réservée au médecin, comme aide à la prescription."
+              },
+              {
+                "name": "Détection d'anomalies sur les objets connectés",
+                "tech": "Machine learning · Isolation Forest · Z-score personnalisé",
+                "text": "Trois modèles Isolation Forest (fréquence cardiaque, tension artérielle, SpO₂) repèrent les valeurs aberrantes, et un z-score calculé sur l'historique de chaque patient (à partir de 10 mesures) personnalise la détection : une valeur normale pour la population peut être anormale pour un patient. Chaque mesure reçoit un score d'anomalie de 0 à 1 et une recommandation ; les seuils fixés par le médecin génèrent en plus des alertes et des notifications."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Système d'information",
+        "title": "ACMA — Prêts et couverture médicale",
+        "description": "Prêts avec circuit de validation, prises en charge médicales, remboursements, portail employé et application mobile Flutter.",
+        "stack": "React · Flutter · Express · Prisma · MySQL",
+        "image": "/images/projects/cwoste-dark.jpg",
+        "url": "",
+        "github": "",
+        "details": "Système d'information composé de trois modules : demandes de prêts avec circuit de validation, gestion des prises en charge médicales et suivi des remboursements mensuels. Application mobile permettant aux employés de consulter leurs soldes et paiements. J'étais responsable de l'architecture, de la modélisation de la base de données et du développement full-stack. L'application mobile est développée avec Flutter et utilise la même API que le portail web.",
+        "role": "Architecture, modélisation de la base de données et développement full-stack",
+        "features": [
+          "Prêts et allocations : réception des demandes, étude par le comité, gestion, paiements et archives, avec un circuit de validation en trois bureaux",
+          "Suivi des retenues : prêts actifs et terminés, groupes de prêts par année et par motif, import de fichiers (mandat, CCP) et ordres de versement",
+          "Contrôles de cohérence des retenues (dossiers en instance, suspendus, montants incohérents)",
+          "Prise en charge médicale : cartes médicales, cliniques, actes et années médicales, avec impression des cartes",
+          "Portail web des employés : inscription avec vérification par code, consultation des prêts, de l'échéancier et des retenues",
+          "Application mobile Flutter (Android) : mêmes services que le portail, avec session conservée sur l'appareil et actualisation par glissement",
+          "Une seule API pour l'administration, le portail web et l'application mobile",
+          "Gestion des utilisateurs et des accès par module",
+          "Interfaces en arabe (de droite à gauche)"
+        ],
+        "stackDetails": [
+          {
+            "label": "Front-end",
+            "items": [
+              "React 19",
+              "Vite",
+              "TypeScript",
+              "MUI",
+              "Redux Toolkit (RTK Query)"
+            ]
+          },
+          {
+            "label": "Application mobile",
+            "items": [
+              "Flutter",
+              "Dart 3",
+              "Provider (gestion d'état)",
+              "API REST (http)",
+              "Stockage local (shared_preferences)",
+              "Google Fonts"
+            ]
+          },
+          {
+            "label": "Back-end",
+            "items": [
+              "Express 5",
+              "TypeScript",
+              "Prisma",
+              "JWT",
+              "Import Excel (xlsx)"
+            ]
+          },
+          {
+            "label": "Données",
+            "items": [
+              "MySQL"
+            ]
+          }
+        ],
+        "gallery": [
+          {
+            "src": "/images/projects/cwoste/module-selection.webp",
+            "group": "Prêts et allocations",
+            "caption": "Choix du module après connexion : prêts et allocations, gestion des retenues, prise en charge médicale."
+          },
+          {
+            "src": "/images/projects/cwoste/loans-dashboard.webp",
+            "group": "Prêts et allocations",
+            "caption": "Tableau de bord des prêts : suivi par bureau (réception, comité, gestion) avec nombre de dossiers et montants."
+          },
+          {
+            "src": "/images/projects/cwoste/loans-reception.webp",
+            "group": "Prêts et allocations",
+            "caption": "Bureau de réception : dossiers par catégorie (allocations, avances, divers), transfert au comité et gestion des dettes."
+          },
+          {
+            "src": "/images/projects/cwoste/loans-committee.webp",
+            "group": "Prêts et allocations",
+            "caption": "Bureau du comité : dossiers transmis, délibération et résultat final (acceptés, refusés) par catégorie."
+          },
+          {
+            "src": "/images/projects/cwoste/deductions-groups.webp",
+            "group": "Suivi des retenues",
+            "caption": "Groupes de prêts par année et par motif : nombre de prêts et montants, avec création, modification et impression."
+          },
+          {
+            "src": "/images/projects/cwoste/medical-dashboard.webp",
+            "group": "Prise en charge médicale",
+            "caption": "Tableau de bord médical : cartes actives, répartition par clinique et par type de service, années médicales."
+          },
+          {
+            "src": "/images/projects/cwoste/medical-clinics.webp",
+            "group": "Prise en charge médicale",
+            "caption": "Gestion des cliniques : liste, état et mise à jour."
+          },
+          {
+            "src": "/images/projects/cwoste/portal-desktop.webp",
+            "group": "Portail employé",
+            "caption": "Portail employé : détail d'un prêt, échéancier, taux de remboursement et historique des retenues mensuelles."
+          },
+          {
+            "src": "/images/projects/cwoste/portal-mobile.webp",
+            "group": "Portail employé",
+            "caption": "Portail employé sur mobile : prêts actifs, mensualité, montant remboursé et reste à payer."
+          }
+        ],
+        "sections": [
+          {
+            "title": "Un système complet : administration, portail web et application mobile",
+            "intro": "Une seule API Express, Prisma et MySQL alimente trois applications qui partagent les mêmes données et les mêmes règles métier : l'administration utilisée par le personnel, le portail web des employés et l'application mobile Flutter.",
+            "icon": "system",
+            "items": [
+              {
+                "name": "Administration web",
+                "tech": "React 19 · Vite · TypeScript · MUI · Redux Toolkit",
+                "text": "Trois modules pour le personnel : prêts et allocations (réception, comité, gestion, paiements, archives), suivi des retenues (imports de fichiers, ordres de versement, contrôles de cohérence) et prise en charge médicale (cartes, cliniques, actes)."
+              },
+              {
+                "name": "Portail web des employés",
+                "tech": "React 19 · Vite · Redux Toolkit (RTK Query)",
+                "text": "Espace en libre-service : inscription avec vérification par code (OTP), connexion, récupération du mot de passe, puis consultation des prêts, de l'échéancier et des retenues mensuelles."
+              },
+              {
+                "name": "Application mobile Flutter",
+                "tech": "Flutter · Dart 3 · Provider · API REST",
+                "text": "Application Android pour les employés : inscription avec code de vérification, connexion et tableau de bord des prêts actifs et soldés, avec la mensualité, le restant dû et les retenues. La session est conservée sur l'appareil, et un APK de production est généré pour les trois architectures Android."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Voyage · B2B / B2C",
+        "title": "Evora Voyage — Omra & billetterie",
+        "description": "Offres, Omra, billets d'avion, tableau de bord d'administration et suivi statistique (Google Analytics).",
+        "stack": "Next.js · React · Express · Prisma · MySQL · Google Analytics",
+        "image": "/images/projects/atlas-voyages-dark.jpg",
+        "url": "",
+        "github": "",
+        "details": "Plateforme de réservation pour une agence de voyage, destinée aux particuliers et aux agences partenaires : offres de voyage, Omra, billets d'avion, comptes multi-rôles, suivi des transactions et tableau de bord d'administration. J'ai conçu le back-end et la logique métier.",
+        "role": "Conception du back-end et de la logique métier",
+        "features": [
+          "Site voyageurs : voyages organisés, Omra, billets d'avion, hôtels, visas et boutique",
+          "Fiches détaillées : programme jour par jour, vols, hôtels et prix selon le type de chambre",
+          "Réservation en ligne, par WhatsApp ou par Messenger, avec favoris et panier",
+          "Espace agences partenaires (B2B) : réservation de places, dépôt des passeports et du justificatif de paiement, suivi du dossier étape par étape et notifications en temps réel",
+          "Administration : chiffre d'affaires et encaissements, réservations et paiements, catalogue, clients, boutique et livraison (wilayas, communes, points de retrait)",
+          "Cinq rôles d'administration et marque blanche (nom, logo, couleurs, devise, modules activables)",
+          "Interface en arabe (de droite à gauche)",
+          "Tableau de bord statistique : chiffre d'affaires et encaissements, réservations par statut et par type, évolution sur 30 jours, avec des agrégations côté serveur (regroupements, sommes) et des graphiques Recharts",
+          "Mesure d'audience avec Google Analytics (GA4)"
+        ],
+        "stackDetails": [
+          {
+            "label": "Site voyageurs",
+            "items": [
+              "Next.js 16",
+              "React 19",
+              "MUI",
+              "TypeScript",
+              "Arabe (RTL)"
+            ]
+          },
+          {
+            "label": "Administration",
+            "items": [
+              "React 19",
+              "Vite",
+              "MUI",
+              "Redux Toolkit (RTK Query)",
+              "Recharts"
+            ]
+          },
+          {
+            "label": "Back-end",
+            "items": [
+              "Express 5",
+              "TypeScript",
+              "Prisma",
+              "JWT",
+              "Server-Sent Events",
+              "Nodemailer",
+              "Cloudinary"
+            ]
+          },
+          {
+            "label": "Analyse de données et mesure",
+            "items": [
+              "Google Analytics (GA4)",
+              "Recharts",
+              "Agrégations Prisma (regroupements, sommes)"
+            ]
+          },
+          {
+            "label": "Données",
+            "items": [
+              "MySQL"
+            ]
+          }
+        ],
+        "gallery": [
+          {
+            "src": "/images/projects/evora-voyage/home.webp",
+            "group": "Site voyageurs",
+            "caption": "Page d'accueil : recherche rapide, offres de voyage et Omra, vols, destinations et boutique du voyageur."
+          },
+          {
+            "src": "/images/projects/evora-voyage/offer-detail.webp",
+            "group": "Site voyageurs",
+            "caption": "Fiche d'une offre Omra : dates, durée, hôtels, vols, prix selon le type de chambre et galerie photos."
+          },
+          {
+            "src": "/images/projects/evora-voyage/flights.webp",
+            "group": "Site voyageurs",
+            "caption": "Billets d'avion : recherche (aller simple ou aller-retour), filtres et résultats par compagnie."
+          },
+          {
+            "src": "/images/projects/evora-voyage/visas.webp",
+            "group": "Site voyageurs",
+            "caption": "Services de visas : types de visa, documents demandés et tarifs."
+          },
+          {
+            "src": "/images/projects/evora-voyage/shop.webp",
+            "group": "Site voyageurs",
+            "caption": "Boutique du voyageur et du pèlerin : catalogue filtré par catégorie et panier."
+          },
+          {
+            "src": "/images/projects/evora-voyage/admin-dashboard.webp",
+            "group": "Administration",
+            "caption": "Tableau de bord : chiffre d'affaires, encaissements, réservations, clients et courbe sur 30 jours."
+          },
+          {
+            "src": "/images/projects/evora-voyage/admin-offers.webp",
+            "group": "Administration",
+            "caption": "Gestion des offres de voyage : dates, places, prix, audience et statut."
+          },
+          {
+            "src": "/images/projects/evora-voyage/mobile-home.webp",
+            "group": "Mobile",
+            "caption": "Page d'accueil sur mobile."
+          },
+          {
+            "src": "/images/projects/evora-voyage/mobile-offer.webp",
+            "group": "Mobile",
+            "caption": "Fiche d'une offre sur mobile."
+          }
+        ]
+      },
+      {
+        "category": "SaaS",
+        "title": "Plateforme de facturation",
+        "description": "Devis et factures multi-devises, clients, paiements et gestion des rôles.",
+        "stack": "Next.js · Node.js · PostgreSQL",
+        "image": "/images/projects/invoice-dark.jpg",
+        "url": "",
+        "github": "",
+        "details": "SaaS de devis et factures multi-devises, de gestion des clients et de suivi des paiements, avec automatisation des étapes de facturation. Authentification sécurisée et gestion des rôles.",
+        "role": "",
+        "features": [
+          "Tableau de bord financier : vue d'ensemble de la trésorerie et des factures en temps réel",
+          "Éditeur de factures multi-devises avec modèles personnalisables",
+          "Devis et factures multi-devises, gestion des clients et suivi des paiements",
+          "Automatisation des étapes de facturation",
+          "Authentification sécurisée et gestion des rôles",
+          "Aperçu et génération de PDF pour les factures et les devis"
+        ],
+        "stackDetails": [
+          {
+            "label": "Front-end",
+            "items": [
+              "Next.js",
+              "React",
+              "MUI",
+              "Redux Toolkit (RTK Query)",
+              "react-hook-form",
+              "@react-pdf/renderer"
+            ]
+          }
+        ],
+        "gallery": [
+          {
+            "src": "/images/projects/invoice/features.webp",
+            "group": "Site",
+            "caption": "Page d'accueil publique : les huit fonctionnalités de l'application (création rapide, design, gestion des clients, analyses, stockage, factures et devis, sécurité, export)."
+          },
+          {
+            "src": "/images/projects/invoice/steps.webp",
+            "group": "Site",
+            "caption": "Parcours en quatre étapes : inscription, création de la facture, envoi au client et suivi des paiements."
+          },
+          {
+            "src": "/images/projects/invoice/mobile-features.webp",
+            "group": "Mobile",
+            "caption": "Page d'accueil sur mobile, avec les fonctionnalités en cartes."
+          }
+        ]
+      },
+      {
+        "category": "E-commerce",
+        "title": "EquiposDz — Matériel informatique",
+        "description": "Catalogue avec filtres, commandes, stocks, administration, SEO et mesure d'audience (Google Analytics).",
+        "stack": "Next.js · React · Express · Prisma · MySQL · Google Analytics",
+        "image": "/images/projects/equipos-dz-dark.jpg",
+        "url": "",
+        "github": "",
+        "details": "Site e-commerce pour un fournisseur de matériel informatique : catalogue avec filtres dynamiques, panier, commandes, gestion des stocks et tableau de bord d'administration.",
+        "role": "",
+        "features": [
+          "Catalogue avec catégories, marques, recherche et fiches produit",
+          "Solutions métier : packs de produits (codes-barres, étiquetage, identification, stock, caisse)",
+          "Panier et commande, interface en français et en arabe (de droite à gauche)",
+          "Administration : produits, marques, catégories, packs, commandes, livraison et messages de contact",
+          "Gestion de la livraison (wilayas, communes, bureaux)",
+          "Tableau de bord des ventes : revenus confirmés comparés aux commandes en attente, par jour (7 ou 30 jours) ou par mois (12 mois), avec des bornes calculées en UTC",
+          "Référencement naturel (SEO) : sitemap, robots.txt et données structurées schema.org (JSON-LD) sur les fiches produit, catégorie et solution",
+          "Mesure d'audience avec Google Analytics 4, chargé en production et documenté dans la politique de confidentialité"
+        ],
+        "stackDetails": [
+          {
+            "label": "Site",
+            "items": [
+              "Next.js 16",
+              "React 19",
+              "MUI",
+              "Redux Toolkit",
+              "next-intl (FR/AR)"
+            ]
+          },
+          {
+            "label": "Administration",
+            "items": [
+              "React 19",
+              "Vite",
+              "MUI",
+              "Redux Toolkit (RTK Query)",
+              "react-hook-form + zod",
+              "Recharts"
+            ]
+          },
+          {
+            "label": "Back-end",
+            "items": [
+              "Express 5",
+              "TypeScript",
+              "Prisma",
+              "JWT",
+              "Nodemailer",
+              "Cloudinary"
+            ]
+          },
+          {
+            "label": "Analyse de données et mesure",
+            "items": [
+              "Google Analytics 4 (@next/third-parties)",
+              "Recharts",
+              "Agrégation des ventes côté serveur",
+              "JSON-LD (schema.org)"
+            ]
+          },
+          {
+            "label": "Données",
+            "items": [
+              "MySQL"
+            ]
+          }
+        ],
+        "gallery": [
+          {
+            "src": "/images/projects/equipos-dz/home.webp",
+            "group": "Site",
+            "caption": "Page d'accueil : présentation, chiffres clés, catégories, marques partenaires et produits suggérés."
+          },
+          {
+            "src": "/images/projects/equipos-dz/catalogue.webp",
+            "group": "Site",
+            "caption": "Catalogue : navigation par catégories et par marques."
+          },
+          {
+            "src": "/images/projects/equipos-dz/product.webp",
+            "group": "Site",
+            "caption": "Fiche produit : galerie, prix, disponibilité, caractéristiques et bouton de commande."
+          },
+          {
+            "src": "/images/projects/equipos-dz/solutions.webp",
+            "group": "Site",
+            "caption": "Solutions métier : kits regroupant plusieurs produits (codes-barres, étiquetage, caisse)."
+          },
+          {
+            "src": "/images/projects/equipos-dz/admin-dashboard.webp",
+            "group": "Administration",
+            "caption": "Tableau de bord : chiffre d'affaires, commandes, produits, ruptures de stock et messages non lus."
+          },
+          {
+            "src": "/images/projects/equipos-dz/admin-products.webp",
+            "group": "Administration",
+            "caption": "Gestion des produits : image, catégorie, marque, prix et état du stock."
+          },
+          {
+            "src": "/images/projects/equipos-dz/admin-packs.webp",
+            "group": "Administration",
+            "caption": "Gestion des solutions (packs) : produits associés, ordre d'affichage et statut."
+          },
+          {
+            "src": "/images/projects/equipos-dz/mobile-home.webp",
+            "group": "Mobile",
+            "caption": "Page d'accueil sur mobile."
+          },
+          {
+            "src": "/images/projects/equipos-dz/mobile-product.webp",
+            "group": "Mobile",
+            "caption": "Fiche produit sur mobile."
+          }
+        ]
+      },
+      {
+        "category": "E-commerce",
+        "title": "Smart Fix — Smartphones, accessoires et réparation",
+        "description": "Boutique en ligne avec ventes flash, packs promotionnels, catalogue par catégories et administration, en français et en arabe.",
+        "stack": "Next.js · React · Express · Prisma · MySQL · Google Analytics",
+        "image": "/images/projects/smartfix-dark.jpg",
+        "url": "",
+        "github": "",
+        "details": "Site e-commerce pour une boutique de smartphones, accessoires, PC et réparation : catalogue par catégories et marques, ventes flash avec compte à rebours, packs à prix réduit, panier, commandes avec paiement à la livraison, livraison par wilaya et tableau de bord d'administration.",
+        "role": "",
+        "features": [
+          "Catalogue par catégories et marques, recherche et fiches produit avec prix et stock",
+          "Ventes flash : promotions avec prix barré et compte à rebours jusqu'à la fin de la première offre",
+          "Packs : produits regroupés à prix réduit, avec pourcentage de remise et stock restant",
+          "Panier et commande avec paiement à la livraison",
+          "Livraison par wilaya, commune et bureau, à domicile ou au bureau",
+          "Administration : produits, marques, catégories, packs, commandes, livraison, messages et notifications",
+          "Interface en français et en arabe (de droite à gauche), adaptée au mobile",
+          "Mesure d'audience avec Google Analytics 4 et référencement (sitemap, robots.txt)"
+        ],
+        "stackDetails": [
+          {
+            "label": "Site",
+            "items": [
+              "Next.js 16",
+              "React 19",
+              "MUI",
+              "Redux Toolkit",
+              "next-intl (FR/AR)"
+            ]
+          },
+          {
+            "label": "Administration",
+            "items": [
+              "React 19",
+              "Vite",
+              "MUI",
+              "Redux Toolkit (RTK Query)",
+              "react-hook-form + zod",
+              "Recharts"
+            ]
+          },
+          {
+            "label": "Back-end",
+            "items": [
+              "Express 5",
+              "TypeScript",
+              "Prisma",
+              "JWT",
+              "Nodemailer",
+              "Cloudinary"
+            ]
+          },
+          {
+            "label": "Analyse de données et mesure",
+            "items": [
+              "Google Analytics 4 (@next/third-parties)",
+              "Recharts"
+            ]
+          },
+          {
+            "label": "Données",
+            "items": [
+              "MySQL"
+            ]
+          }
+        ],
+        "gallery": [
+          {
+            "src": "/images/projects/smartfix/home.webp",
+            "group": "Site",
+            "caption": "Page d'accueil : bannières promotionnelles, accès aux catégories, paiement à la livraison et livraison dans toute l'Algérie."
+          },
+          {
+            "src": "/images/projects/smartfix/catalogue.webp",
+            "group": "Site",
+            "caption": "Catalogue : navigation par catégories et par marques, produits suggérés."
+          },
+          {
+            "src": "/images/projects/smartfix/product.webp",
+            "group": "Site",
+            "caption": "Fiche produit : galerie, prix, disponibilité, quantité, ajout au panier et commande directe."
+          },
+          {
+            "src": "/images/projects/smartfix/packs.webp",
+            "group": "Site",
+            "caption": "Packs : produits regroupés à prix réduit, avec pourcentage de remise et stock restant."
+          },
+          {
+            "src": "/images/projects/smartfix/admin-products.webp",
+            "group": "Administration",
+            "caption": "Gestion des produits : image, catégorie, marque, prix et état du stock."
+          },
+          {
+            "src": "/images/projects/smartfix/admin-packs.webp",
+            "group": "Administration",
+            "caption": "Gestion des packs : produits associés, prix, remise, stock et statut."
+          },
+          {
+            "src": "/images/projects/smartfix/mobile-home.webp",
+            "group": "Mobile",
+            "caption": "Page d'accueil sur mobile."
+          },
+          {
+            "src": "/images/projects/smartfix/mobile-pack.webp",
+            "group": "Mobile",
+            "caption": "Fiche d'un pack sur mobile."
+          }
+        ]
+      },
+      {
+        "category": "E-commerce",
+        "title": "CarPro DZ — Accessoires et entretien automobile",
+        "description": "Boutique en ligne d'accessoires et de produits d'entretien automobile, avec catalogue par catégories, packs et marques partenaires.",
+        "stack": "React · TypeScript · Material-UI · Node.js",
+        "image": "/images/projects/carpro-dark.jpg",
+        "url": "",
+        "github": "",
+        "details": "Plateforme complète pour la vente d'accessoires et de produits d'entretien automobile en Algérie, conçue pour offrir une expérience utilisateur fluide et intuitive : catalogue par catégories, packs, marques partenaires, recherche, panier et pages d'information.",
+        "role": "",
+        "features": [
+          "Catalogue par catégories : entretien des phares, vitres, extérieur, intérieur et outils",
+          "Marques partenaires mises en avant (3M, Meguiar's, Emtop, Toptul…)",
+          "Suggestions de produits en carrousel, avec prix en dinars et état du stock",
+          "Packs de produits",
+          "Recherche et panier",
+          "Pages Contact, Info et À propos : services, équipe et engagements",
+          "Contact rapide par WhatsApp",
+          "Sélecteur de langue et interface moderne avec animations"
+        ],
+        "stackDetails": [],
+        "gallery": [
+          {
+            "src": "/images/projects/carpro/home.webp",
+            "group": "Boutique",
+            "caption": "Accueil : catégories (phares, vitres, extérieur, intérieur, outils), marques partenaires et suggestions de produits."
+          },
+          {
+            "src": "/images/projects/carpro/catalogue.webp",
+            "group": "Boutique",
+            "caption": "Catalogue : produits par catégorie avec prix en dinars et état du stock."
+          },
+          {
+            "src": "/images/projects/carpro/about.webp",
+            "group": "Page À propos",
+            "caption": "Page À propos : présentation de CarPro DZ, spécialiste des accessoires et produits d'entretien automobile."
+          },
+          {
+            "src": "/images/projects/carpro/services.webp",
+            "group": "Page À propos",
+            "caption": "Services (installation et montage, produits d'entretien, diagnostic technique, conseil personnalisé) et équipe."
+          },
+          {
+            "src": "/images/projects/carpro/commitments.webp",
+            "group": "Page À propos",
+            "caption": "Engagements : qualité premium, service personnalisé, disponibilité optimale et garantie."
+          }
+        ]
+      },
+      {
+        "category": "Plateforme B2B",
+        "title": "Mujmaa — Équipements pour les sciences de la vie",
+        "description": "Plateforme B2B pour trouver et comparer des équipements de laboratoire et médicaux : catalogue, demandes de devis, fournisseurs et commandes.",
+        "stack": "React · TypeScript · Material-UI · Node.js",
+        "image": "/images/projects/mujmaa-dark.jpg",
+        "url": "",
+        "github": "",
+        "details": "Marketplace professionnelle d'équipements de laboratoire et médicaux pour les sciences de la vie et la pharma, avec catalogue et comparaison de produits, demandes de devis, gestion des fournisseurs et des commandes, et support client. Projet réalisé pour un client en Estonie.",
+        "role": "",
+        "features": [
+          "Catalogue d'équipements avec recherche par produit, catégorie, marque ou appareil",
+          "Comparaison d'équipements et achat",
+          "Demande de devis sur chaque fiche produit",
+          "Espaces fournisseurs et partenaires",
+          "Gestion des commandes et support client",
+          "Comptes utilisateurs : création de compte et connexion",
+          "Section d'articles et page de contact",
+          "Interface en anglais"
+        ],
+        "stackDetails": [],
+        "gallery": [
+          {
+            "src": "/images/projects/mujmaa/home.webp",
+            "group": "Site",
+            "caption": "Page d'accueil : recherche d'équipements, boutons Comparer et Acheter, navigation vers les fournisseurs, les articles et le contact."
+          },
+          {
+            "src": "/images/projects/mujmaa/featured.webp",
+            "group": "Site",
+            "caption": "Équipements mis en avant : fiches avec demande de devis et mention d'une plateforme indépendante."
+          },
+          {
+            "src": "/images/projects/mujmaa/shipping-partners.webp",
+            "group": "Site",
+            "caption": "Expédition internationale, achat sécurisé et réseau de partenaires."
+          }
+        ]
+      },
+      {
+        "category": "Motion design · Automatisation",
+        "title": "Celerix Video — Production de vidéos et de visuels",
+        "description": "Outil Remotion qui produit vidéos verticales, scènes 3D, posts et couvertures à partir des captures de chaque projet, avec voix off et effets sonores générés.",
+        "stack": "Remotion · React · TypeScript · Three.js · Playwright · FFmpeg · Python",
+        "image": "/images/projects/celerix-video-dark.jpg",
+        "url": "",
+        "github": "",
+        "details": "Outil interne de Celerix Studio pour présenter les projets réalisés. À partir des captures d'un site et de son administration, il génère des vidéos verticales (Reels, TikTok), des scènes 3D, des posts Instagram et des couvertures pour les portfolios, avec la même identité visuelle partout.",
+        "role": "",
+        "features": [
+          "Compositions vidéo pilotées par des propriétés modifiables dans Remotion Studio : intro, outro, présentation de projet, titres et sous-titres (export ProRes avec transparence pour DaVinci Resolve)",
+          "Scène 3D : ordinateur portable construit en code (Three.js, React Three Fiber) dont l'écran lit la capture du site, avec caméra animée, lumières et reflets procéduraux",
+          "Visite guidée d'un site : zoom sur chaque fonctionnalité, projecteur, cadre et étiquette animés, flou de mouvement et transitions",
+          "Posts Instagram, couvertures de cartes et couvertures de portfolio générés pour chaque projet, en thèmes sombre et clair",
+          "Captures automatiques des sites et des administrations avec Playwright, en ordinateur et en mobile, avec masquage des éléments parasites et rangement par projet",
+          "Voix off générée avec une voix neuronale (edge-tts) et niveau sonore normalisé",
+          "Effets sonores synthétisés par programme, sans fichier téléchargé",
+          "Charte graphique centralisée : couleurs, polices, zones de sécurité des plateformes verticales et presets de mouvement"
+        ],
+        "stackDetails": [
+          {
+            "label": "Vidéo et motion",
+            "items": [
+              "Remotion 4",
+              "React 19",
+              "TypeScript",
+              "@remotion/transitions",
+              "@remotion/motion-blur",
+              "@remotion/paths"
+            ]
+          },
+          {
+            "label": "3D",
+            "items": [
+              "Three.js",
+              "React Three Fiber",
+              "drei"
+            ]
+          },
+          {
+            "label": "Automatisation",
+            "items": [
+              "Playwright",
+              "Node.js",
+              "FFmpeg"
+            ]
+          },
+          {
+            "label": "Audio",
+            "items": [
+              "edge-tts (Python)",
+              "Synthèse sonore en JavaScript",
+              "Normalisation loudnorm"
+            ]
+          }
+        ],
+        "gallery": [
+          {
+            "src": "/images/projects/celerix-video/studio-3d.webp",
+            "group": "Remotion Studio",
+            "caption": "Remotion Studio : liste des compositions, aperçu, propriétés modifiables et timeline de la scène 3D."
+          },
+          {
+            "src": "/images/projects/celerix-video/studio-post.webp",
+            "group": "Remotion Studio",
+            "caption": "Post Instagram généré pour chaque projet : textes et images se modifient dans le panneau de propriétés."
+          },
+          {
+            "src": "/images/projects/celerix-video/studio-intro.webp",
+            "group": "Remotion Studio",
+            "caption": "Intro de la marque, avec les effets sonores synchronisés dans la timeline."
+          },
+          {
+            "src": "/images/projects/celerix-video/video-3d-open.webp",
+            "group": "Vidéos verticales",
+            "caption": "Vidéo 3D : un ordinateur portable construit en code (Three.js) qui s'ouvre sur le site du projet."
+          },
+          {
+            "src": "/images/projects/celerix-video/video-3d-tour.webp",
+            "group": "Vidéos verticales",
+            "caption": "Visite guidée : zoom sur une fonctionnalité, fond assombri, cadre animé et étiquette."
+          },
+          {
+            "src": "/images/projects/celerix-video/video-3d-end.webp",
+            "group": "Vidéos verticales",
+            "caption": "Plan final : nom du projet et contact."
+          },
+          {
+            "src": "/images/projects/celerix-video/video-intro.webp",
+            "group": "Vidéos verticales",
+            "caption": "Intro animée de Celerix Studio."
+          },
+          {
+            "src": "/images/projects/celerix-video/video-outro.webp",
+            "group": "Vidéos verticales",
+            "caption": "Outro : appel à l'action avec bouton et contact."
+          },
+          {
+            "src": "/images/projects/celerix-video/post-equipos.webp",
+            "group": "Posts et couvertures",
+            "caption": "Post Instagram (1080 × 1350) d'une réalisation, avec écran d'ordinateur et téléphone."
+          },
+          {
+            "src": "/images/projects/celerix-video/post-sehati.webp",
+            "group": "Posts et couvertures",
+            "caption": "Le même modèle décliné pour un autre projet : seuls les textes et les captures changent."
+          },
+          {
+            "src": "/images/projects/celerix-video/cover-smartfix.webp",
+            "group": "Posts et couvertures",
+            "caption": "Couverture 16:9 de carte pour un portfolio, en version sombre (une version claire existe aussi)."
+          }
+        ],
+        "sections": [
+          {
+            "title": "Une chaîne de production automatisée",
+            "intro": "Trois étapes enchaînées par des commandes : capturer les écrans d'un projet, composer les visuels, puis les produire.",
+            "icon": "system",
+            "items": [
+              {
+                "name": "Capturer",
+                "tech": "Playwright · Node.js",
+                "text": "Une fiche par projet décrit les pages à photographier. Une commande se connecte aux espaces protégés (médecin, patient, administration), capture chaque page en ordinateur haute définition et en mobile, et range les images avec un récapitulatif."
+              },
+              {
+                "name": "Composer",
+                "tech": "Remotion · React · Three.js",
+                "text": "Les compositions lisent ces captures : vidéos verticales avec scène 3D, visite guidée du site, posts et couvertures. Tous les textes et images se règlent dans Remotion Studio."
+              },
+              {
+                "name": "Produire",
+                "tech": "FFmpeg · edge-tts · Python",
+                "text": "Rendu MP4 (H.264) avec voix off et effets sonores générés, mesure du niveau sonore, et export des posts en PNG ou JPEG et des couvertures en deux thèmes."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "dialog": {
+      "details": "Détails",
+      "close": "Fermer",
+      "role": "Mon rôle",
+      "about": "À propos du projet",
+      "features": "Fonctionnalités clés",
+      "stack": "Technologies",
+      "gallery": "Captures de démonstration",
+      "previous": "Image précédente",
+      "next": "Image suivante",
+      "enlarge": "Agrandir l'image",
+      "viewProject": "Voir le projet",
+      "code": "Code"
     }
   },
   "contact": {
-    "title": "Me Contacter",
-    "description": "Je suis toujours intéressé par de nouveaux projets et opportunités.",
-    "name": "Votre Nom",
-    "email": "a_benali@estin.dz",
-    "phone": "+33 (0)1 23 45 67 89",
+    "title": "Me contacter",
+    "description": "Un projet ou une opportunité ? Je réponds généralement sous 24 heures.",
+    "emailLabel": "Email",
+    "email": "contact@celerixstudio.com",
+    "whatsappLabel": "WhatsApp",
+    "whatsappCta": "Écrire sur WhatsApp",
+    "phone": "+213 697 41 26 20",
+    "whatsappUrl": "https://wa.me/213697412620",
     "linkedin": "LinkedIn",
+    "linkedinUrl": "https://www.linkedin.com/in/amine-benali-4b0056256/",
     "github": "GitHub",
-    "twitter": "Twitter"
+    "githubUrl": "https://github.com/benamine19"
   },
   "footer": {
-    "copyright": "© 2024 Portfolio Amine. Tous droits réservés.",
-    "credit": "Conçu avec passion en utilisant Next.js & Material UI"
+    "copyright": "© 2026 Amine Benali. Tous droits réservés.",
+    "location": "Alger, Algérie"
   }
 }

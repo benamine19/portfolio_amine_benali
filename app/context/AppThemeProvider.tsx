@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useMemo } from 'react';
 import { ThemeProvider as MuiThemeProvider } from '@mui/material/styles';
 import { CssBaseline } from '@mui/material';
 import createLightTheme from '@/app/lib/themes/lightTheme';
@@ -18,8 +18,7 @@ interface AppThemeProviderProps {
 export const AppThemeProvider: React.FC<AppThemeProviderProps> = ({ children }) => {
   const { mode } = useTheme();
 
-  // Create theme based on current mode
-  const theme = mode === 'light' ? createLightTheme() : createDarkTheme();
+  const theme = useMemo(() => (mode === 'light' ? createLightTheme() : createDarkTheme()), [mode]);
 
   return (
     <MuiThemeProvider theme={theme}>

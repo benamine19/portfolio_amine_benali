@@ -1,0 +1,168 @@
+%===========================================================
+%  CV — Amine BENALI
+%  Compiler (depuis ce dossier) : pdflatex cv.tex   (deux fois)
+%  ou : npm run cv  (voir package.json) — génère public/cv/Amine_Benali_CV.pdf
+%===========================================================
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{charter}                % police sobre et lisible (Bitstream Charter)
+\usepackage[a4paper,margin=1.0cm,top=0.75cm,bottom=0.75cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+
+% ---------- Couleurs ----------
+\definecolor{ink}{HTML}{1A1D21}
+\definecolor{accent}{HTML}{14365D}
+\definecolor{muted}{HTML}{5B626B}
+\color{ink}
+
+% ---------- Mise en page ----------
+\pagestyle{empty}
+\linespread{0.96}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\frenchsetup{StandardLists=true}   % garde des puces classiques avec babel français
+
+\titleformat{\section}
+  {\large\bfseries\scshape\color{accent}}{}{0pt}{}[\vspace{1pt}{\color{accent}\titlerule[0.6pt]}]
+\titlespacing*{\section}{0pt}{5pt}{2pt}
+
+\setlist[itemize]{leftmargin=1.1em,itemsep=0pt,topsep=1pt,parsep=0pt,label=\textbullet}
+
+% ---------- Commandes ----------
+% \entree{Poste / diplôme}{Dates}{Organisation}{Lieu}
+\newcommand{\entree}[4]{%
+  \textbf{#1}\hfill{\small #2}\\
+  {\itshape #3}\hfill{\small\itshape\color{muted} #4}\par}
+
+% \projet{Nom}{Technologies}
+\newcommand{\projet}[2]{%
+  \textbf{#1}\hfill{\small\itshape\color{muted} #2}\par}
+
+% Photo : \phototrue affiche photo.jpg (même dossier), \photofalse la retire
+\newif\ifphoto
+\phototrue
+
+\begin{document}
+
+%================ EN-TÊTE ================
+\ifphoto
+\begin{minipage}[c]{0.15\textwidth}
+  \includegraphics[width=2.3cm]{photo.jpg}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.84\textwidth}
+\fi
+{\fontsize{24}{26}\selectfont\bfseries AMINE BENALI}\\[3pt]
+{\large\color{accent} Ingénieur d'État en IA \& Data Science \textbar{} Développeur Full-Stack}\\[4pt]
+{\small
+Alger, Algérie \textbar{} +213 697 41 26 20 \textbar{}
+\href{mailto:contact@celerixstudio.com}{contact@celerixstudio.com}\\
+\href{https://portfolio-amine-benali.vercel.app/fr}{portfolio-amine-benali.vercel.app} \textbar{}
+\href{https://www.linkedin.com/in/amine-benali-4b0056256/}{linkedin.com/in/amine-benali-4b0056256} \textbar{}
+\href{https://github.com/benamine19}{github.com/benamine19}}
+\ifphoto
+\end{minipage}
+\fi
+
+%================ PROFIL ================
+\section{Profil}
+Ingénieur d'État et titulaire d'un master en intelligence artificielle et science des données (ESTIN, Bac+5),
+développeur full-stack spécialisé dans les applications métier. Depuis 2023, je conçois et livre pour des
+clients réels des plateformes de réservation, d'e-commerce, de facturation, de gestion et de santé connectée.
+Je souhaite approfondir l'architecture logicielle, la qualité et les méthodes de développement dans un Master en génie logiciel.
+
+%================ FORMATION ================
+\section{Formation}
+
+\entree{Diplôme d'Ingénieur d'État et Master en Intelligence Artificielle \& Data Science (Bac+5)}{2021 -- 2026}%
+{École supérieure en sciences et technologies de l'informatique et du numérique (ESTIN)}{Béjaïa, Algérie}
+\begin{itemize}
+  \item Projet de fin d'études d'ingénieur : \textbf{19/20} \quad\textbar\quad Mémoire de master : \textbf{17,5/20}
+\end{itemize}
+
+
+\entree{Baccalauréat Technique Mathématique, option génie électrique -- moyenne \textbf{17,71/20}}{2021}{Lycée Lakhdar Belmadani}{Sétif, Algérie}
+
+%================ COMMUNICATION ================
+\section{Communication scientifique}
+
+\textbf{Engineering a Sovereign Healthcare 4.0 Ecosystem: A Microservices-based Framework for Real time IoMT Monitoring and Native French Prescriptive Analytics}\hfill{\small 30 mai 2026}\\
+{\small K.~Amara, A.~Charef, \textbf{A.~Benali} (LITAN, ESTIN) -- communication orale, 4\textsuperscript{e} Séminaire national sur la technologie et l'industrie, Tlemcen.}\par
+
+%================ EXPÉRIENCE ================
+\section{Expérience professionnelle}
+
+\entree{Fondateur \& Développeur Full-Stack}{2026 -- aujourd'hui}{Celerix Studio}{Alger, Algérie}
+\begin{itemize}
+  \item Sites web, applications métier et logiciels de gestion : cadrage, architecture, développement, déploiement.
+\end{itemize}
+
+
+\entree{Stagiaire Développeur Web}{Juillet -- septembre 2025}{Dotrea}{Alger, Algérie}
+\begin{itemize}
+  \item Conception et développement d'une application de gestion des employés : dossiers, tâches, absences (Next.js, PostgreSQL).
+  \item Développement d'un tableau de bord de suivi du chiffre d'affaires et des indicateurs de performance (Python, BI).
+\end{itemize}
+
+
+\entree{Développeur Full-Stack Freelance}{2023 -- 2025}{Clients directs}{Algérie}
+\begin{itemize}
+  \item Plateformes e-commerce (EquiposDz, Smart Fix, CarPro DZ), de voyage (Evora Voyage) et B2B médicale (Mujmaa).
+  \item Responsable de bout en bout : interfaces, API, authentification, bases de données, déploiement et maintenance.
+\end{itemize}
+
+
+\entree{Développeur Web}{2024 (6 mois)}{Micro Strategy Solutions DZ}{Algérie}
+\begin{itemize}
+  \item Développement d'applications web et d'API back-end, dont des solutions destinées à un ministère.
+\end{itemize}
+
+
+\entree{Développeur Web (engagement associatif)}{Sept. 2023 -- juin 2024}{Nexus, club scientifique de cybersécurité}{ESTIN, Béjaïa}
+\begin{itemize}
+  \item Développement d'outils internes ; projets sur le développement sécurisé et l'analyse de vulnérabilités web.
+\end{itemize}
+
+%================ PROJETS ================
+\section{Projets sélectionnés}
+
+\projet{Plateforme intelligente pour la santé connectée (PFE)}{Next.js, Express, WebRTC, PostgreSQL, Python, PyTorch}
+\begin{itemize}
+  \item \emph{Design of a Smart Connected Health Platform} (intitulé officiel) : téléconsultation vidéo sécurisée (WebRTC),
+        dossier médical électronique et intégration d'objets connectés, sur une architecture microservices.
+  \item Deep learning (risque clinique, anomalies, aide à la prescription). Développeur principal : architecture, back-end, IA.
+  \item Réalisé en binôme dans le cadre du dispositif Diplôme-Startup ; travaux présentés en communication orale (ci-dessus).
+\end{itemize}
+
+
+\projet{ACMA -- système d'information de prêts et de couverture médicale}{React, Flutter, Express, Prisma, MySQL}
+{\small Circuit de validation des prêts, prises en charge médicales, remboursements mensuels, portail employé et application mobile.}\par
+
+
+\projet{Evora Voyage -- plateforme B2B / B2C d'agence de voyage}{Next.js, Express, Prisma, MySQL}
+{\small Offres de voyage, Omra, billetterie aérienne, tableau de bord d'administration et suivi statistique.}\par
+
+
+\projet{Plateforme SaaS de facturation}{Next.js, Node.js, PostgreSQL}
+{\small Devis et factures multi-devises, gestion des clients et des paiements, contrôle d'accès par rôles.}\par
+
+
+%================ COMPÉTENCES ================
+\section{Compétences et langues}
+\begin{tabularx}{\textwidth}{@{}>{\bfseries}p{3.6cm}X@{}}
+Génie logiciel      & POO, UML, design patterns, microservices, tests unitaires/d'intégration, Scrum, revue de code \\
+Front-end et mobile & React, Next.js, Material UI, Tailwind CSS, Flutter \\
+Back-end et données & Node.js, Express, Prisma, Django, API REST, WebSocket, WebRTC, PostgreSQL, MySQL, MongoDB \\
+IA et données       & Python, PyTorch, deep learning, analyse de données, business intelligence \\
+Outils et langages  & JavaScript, TypeScript, Java, SQL, Git, GitHub, Docker, Linux, CI/CD, Postman \\
+Langues             & Arabe (langue maternelle), français B2 (TCF, 477 points), anglais B2 \\
+\end{tabularx}
+
+\end{document}

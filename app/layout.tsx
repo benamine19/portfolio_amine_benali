@@ -1,30 +1,29 @@
 import type { Metadata } from 'next';
+import localFont from 'next/font/local';
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v16-appRouter';
 import './globals.css';
 
+// Plus Jakarta Sans for headings, Inter for body text (used by the MUI theme via CSS variables).
+// Self-hosted variable fonts from @fontsource-variable: next/font/google fails in Turbopack dev for these fonts.
+const headingFont = localFont({
+  src: '../node_modules/@fontsource-variable/plus-jakarta-sans/files/plus-jakarta-sans-latin-wght-normal.woff2',
+  weight: '200 800',
+  variable: '--font-heading',
+  display: 'swap',
+});
+
+const bodyFont = localFont({
+  src: '../node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2',
+  weight: '100 900',
+  variable: '--font-body',
+  display: 'swap',
+});
+
 export const metadata: Metadata = {
-  title: 'Amine | Portfolio',
-  description: 'Professional portfolio of Amine, Full Stack Developer & UI/UX Enthusiast',
+  title: 'Amine Benali | Portfolio',
+  description: 'Portfolio of Amine Benali, Full-Stack Developer · AI & Data Science',
   keywords: 'portfolio, developer, full-stack, react, next.js, typescript',
-  authors: [{ name: 'Amine' }],
-  openGraph: {
-    type: 'website',
-    locale: 'en_US',
-    url: 'https://example.com',
-    title: 'Amine Portfolio',
-    description: 'Professional portfolio showcasing my projects and skills',
-    images: [
-      {
-        url: 'https://example.com/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Amine Portfolio',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    creator: '@amine',
-  },
+  authors: [{ name: 'Amine Benali' }],
 };
 
 export default function RootLayout({
@@ -33,9 +32,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="fr" className={`${headingFont.variable} ${bodyFont.variable}`} suppressHydrationWarning>
       <body>
-        {children}
+        {/* Collects MUI/Emotion styles on the server so they match on the client (fixes the hydration error) */}
+        <AppRouterCacheProvider>{children}</AppRouterCacheProvider>
       </body>
     </html>
   );

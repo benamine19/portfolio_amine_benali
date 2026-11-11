@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# LaTeX build artifacts (cv/)
+cv/*.fdb_latexmk
+cv/*.fls
+cv/*.aux
+cv/*.log
+cv/*.out
+cv/*.toc

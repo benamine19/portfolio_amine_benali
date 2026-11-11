@@ -3,6 +3,8 @@ import frTranslations from '@/public/locales/fr.json';
 
 export type Locale = 'en' | 'fr';
 
+export type Translations = typeof enTranslations;
+
 const translations: Record<Locale, typeof enTranslations> = {
   en: enTranslations,
   fr: frTranslations,
